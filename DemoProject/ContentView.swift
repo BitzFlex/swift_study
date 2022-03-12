@@ -15,7 +15,7 @@ struct ContentView: View {
 
     var body: some View {
         get {
-            return VStack(spacing: 20) {
+            return VStack(spacing: 20) {  // tail closure .. 
                 Text(textString)
                     .font(.largeTitle)
                     .fontWeight(.bold)
